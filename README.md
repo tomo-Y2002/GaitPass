@@ -12,3 +12,4 @@ streamlit run app.py
 ```
 
 # 基本画面
+![Screenshot from 2023-11-27 14-06-39](https://github.com/tomo-Y2002/GaitPass/assets/115140750/8bb987af-62af-4dae-a868-9def106a3ba5)
