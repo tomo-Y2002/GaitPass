@@ -140,7 +140,7 @@ def system():
         #ベクトル抽出
         gei_tensor = transforms.ToTensor()(gei).to(device)
         features = extract_features(model_gait, gei_tensor.reshape(1,1,128,88), -3)
-        vec = features.numpy()
+        vec = features.cpu().numpy()
         vec = vec.squeeze()
         vec = vec / np.linalg.norm(vec)       # 大きさを1にそろえる
 
